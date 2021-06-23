@@ -11,10 +11,12 @@ My client at the time of creating this repo was in the process of migrating thin
 
 ## Tools and Technology
 - GitHub Codespaces (Browser and VS Code)
+- Angular
+- SQL Server
 - .NET 5
 - Azure (App Services, Azure SQL, VNet)
 
 ## Progression
-1. Creation of applications, Azure infrastructure, and YAML pipelines
-2. Update to use Terraform to create Azure infrastructure as part of the YAML pipelines
-3. I haven't thought of this yet; It depends on how this whole new solution for my client comes into focus
+- [ ] Creation of applications, Azure infrastructure, and YAML pipelines
+- [ ] Update to use Terraform to create Azure infrastructure as part of the YAML pipelines
+- [ ] I haven't thought of this yet; It depends on how this whole new solution for my client comes into focus
