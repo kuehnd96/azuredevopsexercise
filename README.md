@@ -9,6 +9,8 @@ My client at the time of creating this repo was in the process of migrating thin
 - .NET 5 Web API back end
 - SQL Server
 
+The applications will be empty at the start due to the emphasis on CI and CD to Azure. Perhaps I will get something to implement in the applications as the requirements of my client's new solution becomes clear? 
+
 ## Tools and Technology
 - GitHub Codespaces (Browser and VS Code)
 - Angular
@@ -17,6 +19,6 @@ My client at the time of creating this repo was in the process of migrating thin
 - Azure (App Services, Azure SQL, VNet)
 
 ## Progression
-- [ ] Creation of applications, Azure infrastructure, and YAML pipelines
+- [ ] Creation of applications, Azure infrastructure, and initial YAML pipelines
 - [ ] Update to use Terraform to create Azure infrastructure as part of the YAML pipelines
 - [ ] I haven't thought of this yet; It depends on how this whole new solution for my client comes into focus
