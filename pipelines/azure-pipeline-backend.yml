@@ -1,0 +1,16 @@
+task: NuGetCommand@2
+  inputs:
+    command: 'restore'
+    restoreSolution: 'dotenetbackend/dotnetbackend.sln'
+    feedsToUse: 'select'
+- task: DotNetCoreCLI@2
+  inputs:
+    command: 'build'
+    projects: 'dotnetbackend/dotnetbackendapi/*.csproj'
+- task: AzureRmWebAppDeployment@4
+  inputs:
+    ConnectionType: 'AzureRM'
+    azureSubscription: 'Pay-As-You-Go(1)(763d84d9-bc6a-417d-8353-f680f670f6a7)'
+    appType: 'webApp'
+    WebAppName: 'azuredevopsexercisebackend'
+    packageForLinux: '$(System.DefaultWorkingDirectory)/**/*.zip'
